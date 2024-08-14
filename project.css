@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: gilroy; */
+}
+
+html,body {
+    height: 100%;
+    /* font-family: 'Gilroy', sans-serif; */
+    width: 100%;
+}
+
+body{
+    display: flex;
+    /* sare content ek hi jagah aa jayega flex se  */
+    align-items: center;
+    justify-content: center;
+    /* // it is used for x axis 
+    // align-items: y axis ke liye hota hai ; */
+    background-color: cornflowerblue;
+    
+}
+
+#card{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+}
+
+#card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+#card h1{
+    font-size: 25px;
+    margin: 30px 54px;
+}
+
+#card h5{
+    font-size:25px;
+    color: red;
+    margin: 20px;
+    margin-bottom: 5px;
+
+}
+
+#card button{
+     background-color: cadetblue;
+     color: white;
+     font-weight: 700px;
+     padding: 12px 20px;
+     border-radius: 5px;
+     border: none;
+     margin: 15px 12px;
+     cursor: pointer;
+     
+}
+/* #card #remove{
+    background-color: wheat;
+    color: black;
+} */
